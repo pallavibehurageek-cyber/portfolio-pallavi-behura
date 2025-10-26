@@ -39,8 +39,14 @@ This website highlights my tech journey, showcasing animated sections, interacti
 ---
 
 ### 🖼️ Visual Preview  
-![Portfolio Demo](preview-image.png)  
-*(Add your own screenshot named “preview-image.png” in the repo directory)*
+![Portfolio Demo]!(![WhatsApp Image 2025-10-26 at 23 08 19_e9052280](https://github.com/user-attachments/assets/853f5342-cda0-4814-b0d7-ee2259c1289d)
+![WhatsApp Image 2025-10-26 at 23 07 55_62cef440](https://github.com/user-attachments/assets/61f1d00e-26e3-4616-a898-b98fa6fa384a)
+![WhatsApp Image 2025-10-26 at 23 05 51_ace035d9](https://github.com/user-attachments/assets/10667010-18d5-43a5-a89a-2ff9a56c0204)
+![WhatsApp Image 2025-10-26 at 23 05 36_054e3a7e](https://github.com/user-attachments/assets/372e4640-8fdf-477c-9dc7-34838634ed1c)
+![WhatsApp Image 2025-10-26 at 23 05 09_2259b788](https://github.com/user-attachments/assets/de51845e-d4ae-4f0e-ad84-44936501c127)
+[WhatsApp Image 2025-10-26 at 23 04 50_1a983989](https://github.com/user-attachments/assets/3cb1bd1e-88d2-4f90-9a55-bf3426dbe139)
+)  
+
 
 ---
 
