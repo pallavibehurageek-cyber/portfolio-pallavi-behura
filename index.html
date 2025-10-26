@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PALLAVI BEHURA | Interactive Resume & Playground</title>
+  <link rel="icon" type="image/png" href="https://img.icons8.com/color/48/female-profile.png">
+  <style>html { scroll-behavior: smooth; }</style>
+  <!-- AOS Animate On Scroll CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <!-- Your advanced JS code -->
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <h1>PALLAVI BEHURA</h1>
+      <h2>B.Tech ECE Student & Frontend Enthusiast</h2>
+    </div>
+    <img class="avatar" src="https://img.icons8.com/color/96/female-profile.png"
+         alt="Female Avatar of Pallavi Behura" data-aos="zoom-in" data-aos-delay="150">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" data-aos="fade-up">
+    <h3>About Me</h3>
+    <p>
+      Hi, I’m Pallavi Behura—a passionate Electronics & Communication student and web developer who believes technology is most powerful when fused with creativity.
+      <br><br>
+      I thrive at the intersection of design and logic—building solutions that are aesthetic, efficient, and human-centered. From circuits to code, I love crafting experiences that merge functionality and imagination.
+      <br><br>
+      I’m constantly curious, learning, and eager to make my mark in frontend development and digital innovation. Let’s connect ideas with real-world impact!
+    </p>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" data-aos="zoom-in">
+    <h3>Skills Playground</h3>
+
+    <div class="skill-badge">
+      <strong>Favorite Tech Stack:</strong>
+      <span class="badge" data-aos="zoom-in" data-aos-delay="100">JavaScript</span>
+      <span class="badge" data-aos="zoom-in" data-aos-delay="200">HTML5</span>
+      <span class="badge" data-aos="zoom-in" data-aos-delay="300">CSS3</span>
+      <span class="badge" data-aos="zoom-in" data-aos-delay="400">IoT Projects</span>
+    </div>
+
+    <!-- JS TESTER -->
+    <div class="skill-block" data-aos="fade-up" data-aos-delay="0">
+      <h4>🧠 JavaScript Tester</h4>
+      <textarea id="jsinput">// Try JavaScript here!</textarea>
+      <button onclick="runCode()">Run</button>
+      <pre id="jsoutput"></pre>
+    </div>
+
+    <!-- COUNTER -->
+    <div class="animated-counter" data-aos="fade-up" data-aos-delay="100">
+      <span id="counter">0</span> Lines of Code Written
+      <button id="countBtn">+</button>
+    </div>
+
+    <!-- BUTTON DESIGNER -->
+    <div class="skill-block" data-aos="fade-up" data-aos-delay="200">
+      <h4>🎨 Design Your Button</h4>
+      <label for="btnColor">Pick a color:</label>
+      <input type="color" id="btnColor" value="#e65c4f">
+      <br><br>
+      <label for="radius">Roundness (0–30):</label>
+      <input type="range" id="radius" min="0" max="30" value="10">
+      <br><br>
+      <button id="styledBtn">Preview Button</button>
+    </div>
+
+    <!-- COLOR MIXER -->
+    <div class="skill-block" data-aos="fade-up" data-aos-delay="300">
+      <h4>🌈 Color Mixer</h4>
+      <label>R: <input type="range" id="rRange" min="0" max="255" value="120"></label>
+      <label>G: <input type="range" id="gRange" min="0" max="255" value="200"></label>
+      <label>B: <input type="range" id="bRange" min="0" max="255" value="200"></label>
+      <div id="colorBox" style="width:100%;height:45px;margin-top:8px;border-radius:6px;border:1px solid #ccc;"></div>
+      <p id="rgbVals"></p>
+    </div>
+
+    <!-- QUIZ -->
+    <div class="skill-block" data-aos="fade-up" data-aos-delay="400">
+      <h4>💡 Quick JS Quiz</h4>
+      <p>Which tag is used to include JavaScript inside HTML?</p>
+      <button onclick="quizAnswer('script')">script</button>
+      <button onclick="quizAnswer('style')">style</button>
+      <button onclick="quizAnswer('link')">link</button>
+      <p id="quizResult"></p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" data-aos="fade-right">
+    <h3>Projects</h3>
+    <ul id="projectList">
+      <li data-aos="slide-left" data-aos-delay="100"><strong>Smart Home Dashboard:</strong> Web-based smart control system combining JS and Arduino hardware integration.</li>
+      <li data-aos="slide-left" data-aos-delay="250"><strong>Portfolio Website:</strong> Fully responsive, self-coded personal portfolio showcasing interactivity with HTML, CSS, and JS.</li>
+      <li data-aos="slide-left" data-aos-delay="400"><strong>Learning Hub:</strong> Mini challenges that make JavaScript concepts fun and approachable for new learners.</li>
+    </ul>
+  </section>
+<section id="linkedin-badge" data-aos="fade-up">
+  <h3>Connect with me on LinkedIn</h3>
+  <div class="linkedin-badge">
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <div class="LI-profile-badge"
+        data-version="v1"
+        data-size="large"
+        data-locale="en_US"
+        data-type="vertical"
+        data-theme="light"
+        data-vanity="pallavi-behura-547329214">
+      <a class="LI-simple-link" href='https://www.linkedin.com/in/pallavi-behura-547329214?trk=profile-badge'>Pallavi Behura</a>
+    </div>
+  </div>
+</section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" data-aos="fade-left">
+    <h3>Contact Me</h3>
+    <form id="contactForm" action="https://formspree.io/f/mkgpgwjl" method="POST">
+      <input type="text" name="name" placeholder="Your Name (required)" required />
+      <input type="email" name="email" placeholder="Your Email (required)" required />
+      <textarea name="message" placeholder="Your Message (required)" required></textarea>
+      <button type="submit">Send Message 🚀</button>
+    </form>
+    <div class="feedback"></div>
+
+    <div class="alt-contact" data-aos="fade-up" data-aos-delay="200">
+      <p><strong>Connect with me directly:</strong></p>
+      <a href="mailto:pallavibehurageek@gmail.com" class="badge" data-aos="zoom-in" data-aos-delay="220">Email</a>
+      <a href="https://www.linkedin.com/in/pallavi-behura-547329214/" target="_blank" class="badge" data-aos="zoom-in" data-aos-delay="260">LinkedIn</a>
+      <a href="https://github.com/pallavibehurageek-cyber" target="_blank" class="badge" data-aos="zoom-in" data-aos-delay="300">GitHub</a>
+    </div>
+  </section>
+  <footer>
+    Made with ❤️ by Pallavi Behura &mdash; © 2025
+  </footer>
+
+  <!-- AOS SCROLL ANIMATION LIBRARY -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({ duration: 850, once: true });
+  </script>
+</body>
+</html>
